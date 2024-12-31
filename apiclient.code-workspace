@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../apiclient"
+		},
+		{
+			"name": "api_client",
+			"path": "."
+		},
+		{
+			"path": "../github/go-chassis"
+		}
+	],
+	"settings": {}
+}
