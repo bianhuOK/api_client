@@ -8,7 +8,11 @@ import (
 
 func main() {
 
-	chassis.RegisterSchema("rest", &app_sql_template.ApiSqlController{})
+	app, err := app_sql_template.InitializeSqlApp()
+	if err != nil {
+		panic(err)
+	}
+	chassis.RegisterSchema("rest", app)
 
 	if err := chassis.Init(); err != nil {
 		panic(err)

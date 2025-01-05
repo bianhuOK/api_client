@@ -14,12 +14,12 @@ func NewMockRemoteAPI() *MockRemoteAPI {
 	m := MockRemoteAPI{}
 	// Use mock's Method to simulate the behavior
 	expectedTemplate := &sql_template.SqlTemplate{
-		ApiId:           "id123",
+		ApiId:           "zzz",
 		TemplateContent: "SELECT * FROM users WHERE id = ?",
 	}
 
 	// Setup expectations
-	m.On("FetchTemplate", "123").Return(expectedTemplate, nil)
+	m.On("FetchTemplate", mock.Anything).Return(expectedTemplate, nil)
 	return &m
 }
 
