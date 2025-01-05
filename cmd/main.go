@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/bianhuOK/api_client/internal/demo"
 	"github.com/go-chassis/go-chassis/v2"
+	_ "github.com/go-chassis/go-chassis/v2/middleware/accesslog"
 )
 
 func main() {

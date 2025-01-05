@@ -9,4 +9,4 @@ servicecomb:
   handler:
     chain:
       Provider:
-        default: tracing-provider
+        rest: access-log, tracing-provider

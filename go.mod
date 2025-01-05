@@ -3,6 +3,12 @@ module github.com/bianhuOK/api_client
 go 1.21.10
 
 require (
+	github.com/go-chassis/go-chassis/v2 v2.4.0
+	github.com/google/wire v0.6.0
+	github.com/patrickmn/go-cache v2.1.0+incompatible
+)
+
+require (
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/cenkalti/backoff v2.0.0+incompatible // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
@@ -11,7 +17,6 @@ require (
 	github.com/go-chassis/cari v0.5.1-0.20210823023004-74041d1363c4 // indirect
 	github.com/go-chassis/foundation v0.3.0 // indirect
 	github.com/go-chassis/go-archaius v1.5.1 // indirect
-	github.com/go-chassis/go-chassis/v2 v2.4.0 // indirect
 	github.com/go-chassis/go-restful-swagger20 v1.0.3 // indirect
 	github.com/go-chassis/kie-client v0.0.0-20201210060018-938c7680a9ab // indirect
 	github.com/go-chassis/openlog v1.1.2 // indirect
@@ -26,14 +31,13 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/opentracing/opentracing-go v1.1.0 // indirect
-	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	github.com/prometheus/client_golang v0.9.1 // indirect
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910 // indirect
 	github.com/prometheus/common v0.2.0 // indirect
 	github.com/prometheus/procfs v0.0.0-20181005140218-185b4288413d // indirect
 	github.com/spf13/cast v1.2.0 // indirect
-	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9 // indirect
-	golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456 // indirect
+	golang.org/x/net v0.20.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
 	google.golang.org/protobuf v1.23.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect

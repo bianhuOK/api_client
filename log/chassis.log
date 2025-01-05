@@ -1,0 +1,343 @@
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.770 +08:00","file":"lager/lager.go:60","msg":"logger init success"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.772 +08:00","file":"provider/provider_manager.go:19","msg":"Install Provider Plugin, name: default"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.772 +08:00","file":"router/router.go:34","msg":"install route rule plugin: cse"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.772 +08:00","file":"loadbalancer/strategy.go:23","msg":"installed strategy plugin: WeightedResponse."}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.772 +08:00","file":"client/client_plugins.go:24","msg":"Install client plugin, protocol: rest"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.773 +08:00","file":"registry/registrator.go:91","msg":"Installed registry plugin: servicecenter"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.773 +08:00","file":"registry/discovery.go:18","msg":"Installed service discovery plugin: servicecenter"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.773 +08:00","file":"registry/discovery.go:33","msg":"Installed contract discovery plugin: servicecenter"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.773 +08:00","file":"hystrix/reporter.go:24","msg":"install reporter plugin:Prometheus"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"server/server_manager.go:36","msg":"Installed Server Plugin, protocol:rest"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/circuit_breaker.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/load_balancing.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/rate_limiting.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/tls.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/monitoring.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/auth.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/tracing.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/router.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"go-archaius@v1.5.1/archaius.go:55","msg":"Configuration files: /Users/bianniu/GolandProjects/api_client/conf/chassis.yaml, /Users/bianniu/GolandProjects/api_client/conf/microservice.yaml, /Users/bianniu/GolandProjects/api_client/conf/lager.yaml"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.774 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:FileSource"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"source/manager.go:205","msg":"empty config from MemorySource"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:MemorySource"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"source/manager.go:205","msg":"empty config from CommandlineSource"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:CommandlineSource"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"env/env.go:43","msg":"enable env source"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"mem/mem.go:96","msg":"mem source callback prepared"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"file/file.go:353","msg":"create new watcher"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:EnvironmentSource"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"go-archaius@v1.5.1/archaius.go:108","msg":"archaius init success"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"schema/loader.go:81","msg":"found schema files in /Users/bianniu/GolandProjects/api_client/conf/ApiClient/schema \u0026{schema [ApiClient]}"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.775 +08:00","file":"config/config.go:59","msg":"read from archaius"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"config/config.go:258","msg":"Host name is bianniudeMacBook-Air.local"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"metrics/prometheus.go:32","msg":"go runtime metrics is exported"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"v2@v2.4.0/chassis_init.go:90","msg":"init Provider's handler map"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"handler/handler_chain.go:103","msg":"add [1] handlers for chain [rest]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"handler/handler_chain.go:103","msg":"add [1] handlers for chain [default]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"v2@v2.4.0/chassis_init.go:90","msg":"init Consumer's handler map"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"handler/handler_chain.go:103","msg":"add [4] handlers for chain [default]"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"v2@v2.4.0/chassis_init.go:102","msg":"chain init success"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"server/server_manager.go:109","msg":"init server [rest], protocol is [rest]"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.777 +08:00","file":"configserver/config_server.go:36","msg":"can not get config server endpoint: discovery is disabled"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"servicecomb/router.go:72","msg":"load route rule","data":{"rule":{}}}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"router/router_config.go:36","msg":"router init success"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"servicecomb/transfer.go:22","msg":"Loading lb config from archaius into cache"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"servicecomb/transfer.go:83","msg":"Loading cb config from archaius into cache"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"servicecomb/transfer.go:118","msg":"save circuit breaker config [hystrix.CommandConfig{MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false, MetricsConsumerNum:0}] for [] "}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"servicecomb/transfer.go:118","msg":"save circuit breaker config [hystrix.CommandConfig{MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false, MetricsConsumerNum:0}] for [] "}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"tracing/tracer_manager.go:37","msg":"Tracing enabled. Start to init tracer."}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"tracing/tracer_manager.go:43","msg":"can not load any opentracing plugin, lost distributed tracing function"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:51","msg":"process all governance rules"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"_:/usr/local/go/bin/go"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_CELLAR:/opt/homebrew/Cellar"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"LANG:en_US.UTF-8"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"logFile:log/chassis.log"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_IPC_HANDLE:/var/folders/19/_4fnncl111q_z4q1x1sgmtt80000gn/T/vscode-git-09c2f71275.sock"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_REPOSITORY:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"OLDPWD:/Users/bianniu/GolandProjects/api_client"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"USER:bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"..CFBundleIdentifier:com.todesktop.230313mzl4w4u92"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"ORIGINAL_XDG_CURRENT_DESKTOP:undefined"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"XPC_SERVICE_NAME:0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"CHASSIS.HOME:/Users/bianniu/GolandProjects/api_client/"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logBackupCount"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"logBackupCount:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"ZDOTDIR:/Users/bianniu"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logRotateSize"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"logRotateSize:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_PIP_INDEX_URL:http://mirrors.aliyun.com/pypi/simple"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.BOTTLE.DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"__CFBundleIdentifier:com.todesktop.230313mzl4w4u92"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:55","msg":"not string format,key:servicecomb.registry.disabled"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"servicecomb.registry.disabled:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"XPC_FLAGS:0x0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"SSH.AUTH.SOCK:/private/tmp/com.apple.launchd.1FS6n8o3oi/Listeners"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.PREFIX:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"SHELL:/bin/zsh"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"..CF.USER.TEXT.ENCODING:0x1F5:0x19:0x34"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"USER_ZDOTDIR:/Users/bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"TERM_PROGRAM:vscode"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.REPOSITORY:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"GIT.ASKPASS:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass.sh"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"logLevel:DEBUG"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE.INJECTION:1"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_ASKPASS_EXTRA_ARGS:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_ASKPASS_NODE:/Applications/Cursor.app/Contents/Frameworks/Cursor Helper (Plugin).app/Contents/MacOS/Cursor Helper (Plugin)"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logRotateDisable"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"logRotateDisable:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"SHLVL:1"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"XPC.FLAGS:0x0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.ASKPASS.MAIN:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOME:/Users/bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/usr/local/go/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/bianniu/go/bin:/Users/bianniu/go/bin:/usr/local/opt/riscv-gnu-toolchain/bin:/usr/local/texlive/2024/bin"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_API_DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles/api"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.ASKPASS.EXTRA.ARGS:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"servicecomb.registry.address:http://127.0.0.1:30100"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"servicecomb.protocols.rest.listenAddress:127.0.0.1:5001"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"servicecomb.handler.chain.Provider.rest:tracing-provider"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.ASKPASS.NODE:/Applications/Cursor.app/Contents/Frameworks/Cursor Helper (Plugin).app/Contents/MacOS/Cursor Helper (Plugin)"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"COMMAND_MODE:unix2003"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"INFOPATH:/opt/homebrew/share/info:/opt/homebrew/share/info:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"TERM_PROGRAM_VERSION:0.43.6"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"TERM.PROGRAM:vscode"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"servicecomb.service.name:ApiClient"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"GIT_ASKPASS:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass.sh"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"SSH_AUTH_SOCK:/private/tmp/com.apple.launchd.1FS6n8o3oi/Listeners"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"VSCODE_INJECTION:1"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.778 +08:00","file":"governance/governance.go:57","msg":"CHASSIS_HOME:/Users/bianniu/GolandProjects/api_client/"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"COMMAND.MODE:unix2003"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.PIP.INDEX.URL:http://mirrors.aliyun.com/pypi/simple"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"MallocNanoZone:0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"logWriters:file,stdout"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"COLORTERM:truecolor"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":".:/usr/local/go/bin/go"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"XPC.SERVICE.NAME:0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"__CF_USER_TEXT_ENCODING:0x1F5:0x19:0x34"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"LaunchInstanceID:9A184292-F9A3-4354-8090-C91D0BA4A3F4"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"TERM.PROGRAM.VERSION:0.43.6"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_BOTTLE_DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_PREFIX:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.IPC.HANDLE:/var/folders/19/_4fnncl111q_z4q1x1sgmtt80000gn/T/vscode-git-09c2f71275.sock"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logFormatText"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"logFormatText:"}
+{"level":"WARN","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logRotateAge"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"logRotateAge:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"TERM:xterm-256color"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_ASKPASS_MAIN:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"TMPDIR:/var/folders/19/_4fnncl111q_z4q1x1sgmtt80000gn/T/"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.CELLAR:/opt/homebrew/Cellar"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"USER.ZDOTDIR:/Users/bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"SECURITYSESSIONID:186b3"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.API.DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles/api"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"ORIGINAL.XDG.CURRENT.DESKTOP:undefined"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"PWD:/Users/bianniu/GolandProjects/api_client"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"governance/governance.go:57","msg":"LOGNAME:bianniu"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"v2@v2.4.0/chassis_api.go:194","msg":"init chassis success, version is v2.2.0"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"restful/restful_server.go:119","msg":"register rest server"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"restful/restful_server.go:137","msg":"schema registered is [RestFulHello]"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"restful/router.go:152","msg":"add route path.","data":{"func_name":"SayHello","method":"GET","path":"/hello"}}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.779 +08:00","file":"server/server_manager.go:68","msg":"starting server rest..."}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.780 +08:00","file":"restful/restful_server.go:285","msg":"[restful/swagger] listing is available at 127.0.0.1:5001/apidocs.json"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.780 +08:00","file":"restful/restful_server.go:285","msg":"[restful/swagger] 127.0.0.1:5001/swagger/ is mapped to folder ./swagger-ui/dist/"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.780 +08:00","file":"restful/restful_server.go:310","msg":"contract has been created successfully. path:/Users/bianniu/GolandProjects/api_client/conf/ApiClient/schema"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.780 +08:00","file":"restful/restful_server.go:273","msg":"http server is listening at 127.0.0.1:5001"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:11:56.780 +08:00","file":"server/server_manager.go:74","msg":"rest server start success"}
+{"level":"INFO","timestamp":"2025-01-03 00:11:56.780 +08:00","file":"server/server_manager.go:76","msg":"all server start completed"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.995 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/lager.yaml, operation is 16. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.995 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.996 +08:00","file":"file/file.go:436","msg":"new config: map[accessLogFile:log/chassis.log logBackupCount:7 logFile:log/chassis.log logFormatText:false logLevel:DEBUG logRotateAge:1 logRotateDisable:false logRotateSize:10 logWriters:file,stdout]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"file/file.go:438","msg":"generated events [0x14000015c70]"}
+{"level":"INFO","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"source/manager.go:411","msg":"config update event received"}
+{"level":"INFO","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"source/manager.go:408","msg":"config update event {EventSource:FileSource EventType:CREATE Key:accessLogFile Value:log/chassis.log HasUpdated:true} has been updated"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/lager.yaml, operation is 2. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"file/file.go:436","msg":"new config: map[accessLogFile:log/chassis.log logBackupCount:7 logFile:log/chassis.log logFormatText:false logLevel:DEBUG logRotateAge:1 logRotateDisable:false logRotateSize:10 logWriters:file,stdout]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:43.997 +08:00","file":"file/file.go:438","msg":"generated events []"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:45.236 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/lager.yaml, operation is 16. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:45.236 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:45.236 +08:00","file":"file/file.go:436","msg":"new config: map[accessLogFile:log/chassis.log logBackupCount:7 logFile:log/chassis.log logFormatText:false logLevel:DEBUG logRotateAge:1 logRotateDisable:false logRotateSize:10 logWriters:file,stdout]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:45.236 +08:00","file":"file/file.go:438","msg":"generated events []"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.195 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/chassis.yaml, operation is 16. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.195 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.196 +08:00","file":"file/file.go:436","msg":"new config: map[servicecomb.handler.chain.Provider.rest:access-log, tracing-provider servicecomb.protocols.rest.listenAddress:127.0.0.1:5001 servicecomb.registry.address:http://127.0.0.1:30100 servicecomb.registry.disabled:true]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.196 +08:00","file":"file/file.go:438","msg":"generated events [0x140001b2c80]"}
+{"level":"INFO","timestamp":"2025-01-03 00:41:52.197 +08:00","file":"source/manager.go:411","msg":"config update event received"}
+{"level":"INFO","timestamp":"2025-01-03 00:41:52.197 +08:00","file":"source/manager.go:408","msg":"config update event {EventSource:FileSource EventType:UPDATE Key:servicecomb.handler.chain.Provider.rest Value:access-log, tracing-provider HasUpdated:true} has been updated"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.197 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/chassis.yaml, operation is 2. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.197 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.197 +08:00","file":"file/file.go:436","msg":"new config: map[servicecomb.handler.chain.Provider.rest:access-log, tracing-provider servicecomb.protocols.rest.listenAddress:127.0.0.1:5001 servicecomb.registry.address:http://127.0.0.1:30100 servicecomb.registry.disabled:true]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:52.200 +08:00","file":"file/file.go:438","msg":"generated events []"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:53.083 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/chassis.yaml, operation is 16. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:53.083 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:53.083 +08:00","file":"file/file.go:436","msg":"new config: map[servicecomb.handler.chain.Provider.rest:access-log, tracing-provider servicecomb.protocols.rest.listenAddress:127.0.0.1:5001 servicecomb.registry.address:http://127.0.0.1:30100 servicecomb.registry.disabled:true]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:41:53.083 +08:00","file":"file/file.go:438","msg":"generated events []"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.118 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/lager.yaml, operation is 16. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.119 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.120 +08:00","file":"file/file.go:436","msg":"new config: map[accessLogFile:log/access.log logBackupCount:7 logFile:log/chassis.log logFormatText:false logLevel:DEBUG logRotateAge:1 logRotateDisable:false logRotateSize:10 logWriters:file,stdout]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.120 +08:00","file":"file/file.go:438","msg":"generated events [0x140000af680]"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:14.123 +08:00","file":"source/manager.go:411","msg":"config update event received"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:14.123 +08:00","file":"source/manager.go:408","msg":"config update event {EventSource:FileSource EventType:UPDATE Key:accessLogFile Value:log/access.log HasUpdated:true} has been updated"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.123 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/lager.yaml, operation is 2. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.123 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.123 +08:00","file":"file/file.go:436","msg":"new config: map[accessLogFile:log/access.log logBackupCount:7 logFile:log/chassis.log logFormatText:false logLevel:DEBUG logRotateAge:1 logRotateDisable:false logRotateSize:10 logWriters:file,stdout]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:14.123 +08:00","file":"file/file.go:438","msg":"generated events []"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:15.363 +08:00","file":"file/file.go:395","msg":"file event /Users/bianniu/GolandProjects/api_client/conf/lager.yaml, operation is 16. reload it."}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:15.363 +08:00","file":"file/file.go:422","msg":"user default file handler"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:15.363 +08:00","file":"file/file.go:436","msg":"new config: map[accessLogFile:log/access.log logBackupCount:7 logFile:log/chassis.log logFormatText:false logLevel:DEBUG logRotateAge:1 logRotateDisable:false logRotateSize:10 logWriters:file,stdout]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:15.363 +08:00","file":"file/file.go:438","msg":"generated events []"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:27.128 +08:00","file":"v2@v2.4.0/chassis_api.go:128","msg":"got os signal interrupt"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:27.128 +08:00","file":"v2@v2.4.0/chassis_api.go:159","msg":"stopping server rest..."}
+{"level":"ERROR","timestamp":"2025-01-03 00:43:27.128 +08:00","file":"restful/restful_server.go:267","msg":"http server err: http: Server closed"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:27.128 +08:00","file":"v2@v2.4.0/chassis_api.go:164","msg":"rest server stop success"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:27.128 +08:00","file":"v2@v2.4.0/chassis_api.go:167","msg":"go chassis server gracefully shutdown"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.115 +08:00","file":"lager/lager.go:60","msg":"logger init success"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.116 +08:00","file":"provider/provider_manager.go:19","msg":"Install Provider Plugin, name: default"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.117 +08:00","file":"router/router.go:34","msg":"install route rule plugin: cse"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.117 +08:00","file":"loadbalancer/strategy.go:23","msg":"installed strategy plugin: WeightedResponse."}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.117 +08:00","file":"client/client_plugins.go:24","msg":"Install client plugin, protocol: rest"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.117 +08:00","file":"registry/registrator.go:91","msg":"Installed registry plugin: servicecenter"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.118 +08:00","file":"registry/discovery.go:18","msg":"Installed service discovery plugin: servicecenter"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.118 +08:00","file":"registry/discovery.go:33","msg":"Installed contract discovery plugin: servicecenter"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.118 +08:00","file":"hystrix/reporter.go:24","msg":"install reporter plugin:Prometheus"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.118 +08:00","file":"server/server_manager.go:36","msg":"Installed Server Plugin, protocol:rest"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/circuit_breaker.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/load_balancing.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/rate_limiting.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/tls.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/monitoring.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/auth.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/tracing.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:46","msg":"[/Users/bianniu/GolandProjects/api_client/conf/router.yaml] not exist"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"go-archaius@v1.5.1/archaius.go:55","msg":"Configuration files: /Users/bianniu/GolandProjects/api_client/conf/chassis.yaml, /Users/bianniu/GolandProjects/api_client/conf/microservice.yaml, /Users/bianniu/GolandProjects/api_client/conf/lager.yaml"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:FileSource"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"source/manager.go:205","msg":"empty config from MemorySource"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:MemorySource"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"source/manager.go:205","msg":"empty config from CommandlineSource"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"mem/mem.go:96","msg":"mem source callback prepared"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.119 +08:00","file":"file/file.go:353","msg":"create new watcher"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.121 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:CommandlineSource"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.121 +08:00","file":"env/env.go:43","msg":"enable env source"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.121 +08:00","file":"source/manager.go:182","msg":"invoke dynamic handler:EnvironmentSource"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.121 +08:00","file":"go-archaius@v1.5.1/archaius.go:108","msg":"archaius init success"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.122 +08:00","file":"schema/loader.go:81","msg":"found schema files in /Users/bianniu/GolandProjects/api_client/conf/ApiClient/schema \u0026{schema [ApiClient]}"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.122 +08:00","file":"config/config.go:59","msg":"read from archaius"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"config/config.go:258","msg":"Host name is bianniudeMacBook-Air.local"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"metrics/prometheus.go:32","msg":"go runtime metrics is exported"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"v2@v2.4.0/chassis_init.go:90","msg":"init Provider's handler map"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"handler/handler_chain.go:103","msg":"add [2] handlers for chain [rest]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"handler/handler_chain.go:103","msg":"add [1] handlers for chain [default]"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"v2@v2.4.0/chassis_init.go:90","msg":"init Consumer's handler map"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"handler/handler_chain.go:103","msg":"add [4] handlers for chain [default]"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"v2@v2.4.0/chassis_init.go:102","msg":"chain init success"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"server/server_manager.go:109","msg":"init server [rest], protocol is [rest]"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.123 +08:00","file":"configserver/config_server.go:36","msg":"can not get config server endpoint: discovery is disabled"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"servicecomb/router.go:72","msg":"load route rule","data":{"rule":{}}}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"router/router_config.go:36","msg":"router init success"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"servicecomb/transfer.go:22","msg":"Loading lb config from archaius into cache"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"servicecomb/transfer.go:83","msg":"Loading cb config from archaius into cache"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"servicecomb/transfer.go:118","msg":"save circuit breaker config [hystrix.CommandConfig{MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false, MetricsConsumerNum:0}] for [] "}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"servicecomb/transfer.go:118","msg":"save circuit breaker config [hystrix.CommandConfig{MaxConcurrentRequests:1000, RequestVolumeThreshold:20, SleepWindow:15000, ErrorPercentThreshold:50, ForceFallback:false, CircuitBreakerEnabled:false, ForceOpen:false, ForceClose:false, MetricsConsumerNum:0}] for [] "}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"tracing/tracer_manager.go:37","msg":"Tracing enabled. Start to init tracer."}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"tracing/tracer_manager.go:43","msg":"can not load any opentracing plugin, lost distributed tracing function"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:51","msg":"process all governance rules"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"GIT.ASKPASS:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass.sh"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"SECURITYSESSIONID:186b3"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logRotateAge"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"logRotateAge:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"_:/usr/local/go/bin/go"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":".:/usr/local/go/bin/go"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"USER:bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"MallocNanoZone:0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"LANG:en_US.UTF-8"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"COMMAND.MODE:unix2003"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.IPC.HANDLE:/var/folders/19/_4fnncl111q_z4q1x1sgmtt80000gn/T/vscode-git-09c2f71275.sock"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"TERM.PROGRAM.VERSION:0.43.6"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.ASKPASS.NODE:/Applications/Cursor.app/Contents/Frameworks/Cursor Helper (Plugin).app/Contents/MacOS/Cursor Helper (Plugin)"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logBackupCount"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"logBackupCount:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"GIT_ASKPASS:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass.sh"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"INFOPATH:/opt/homebrew/share/info:/opt/homebrew/share/info:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"COMMAND_MODE:unix2003"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"ORIGINAL_XDG_CURRENT_DESKTOP:undefined"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"..CFBundleIdentifier:com.todesktop.230313mzl4w4u92"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE.INJECTION:1"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.API.DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles/api"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"XPC.SERVICE.NAME:0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_ASKPASS_EXTRA_ARGS:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"servicecomb.registry.address:http://127.0.0.1:30100"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"PATH:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/usr/local/go/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/bianniu/go/bin:/Users/bianniu/go/bin:/usr/local/opt/riscv-gnu-toolchain/bin:/usr/local/texlive/2024/bin"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"logWriters:file,stdout"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_IPC_HANDLE:/var/folders/19/_4fnncl111q_z4q1x1sgmtt80000gn/T/vscode-git-09c2f71275.sock"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"XPC.FLAGS:0x0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"servicecomb.service.name:ApiClient"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_CELLAR:/opt/homebrew/Cellar"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.PIP.INDEX.URL:http://mirrors.aliyun.com/pypi/simple"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"TMPDIR:/var/folders/19/_4fnncl111q_z4q1x1sgmtt80000gn/T/"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"ZDOTDIR:/Users/bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"ORIGINAL.XDG.CURRENT.DESKTOP:undefined"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_ASKPASS_MAIN:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.PREFIX:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"servicecomb.handler.chain.Provider.rest:access-log, tracing-provider"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"PWD:/Users/bianniu/GolandProjects/api_client"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"SSH_AUTH_SOCK:/private/tmp/com.apple.launchd.1FS6n8o3oi/Listeners"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"logFile:log/chassis.log"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_REPOSITORY:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"SSH.AUTH.SOCK:/private/tmp/com.apple.launchd.1FS6n8o3oi/Listeners"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"SHLVL:1"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"XPC_FLAGS:0x0"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logFormatText"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"logFormatText:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"TERM_PROGRAM_VERSION:0.43.6"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"logLevel:DEBUG"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.ASKPASS.MAIN:/Applications/Cursor.app/Contents/Resources/app/extensions/git/dist/askpass-main.js"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.BOTTLE.DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.124 +08:00","file":"governance/governance.go:57","msg":"XPC_SERVICE_NAME:0"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_BOTTLE_DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"CHASSIS_HOME:/Users/bianniu/GolandProjects/api_client/"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"OLDPWD:/Users/bianniu/GolandProjects/api_client"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"COLORTERM:truecolor"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"servicecomb.protocols.rest.listenAddress:127.0.0.1:5001"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"accessLogFile:log/access.log"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_PREFIX:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"__CFBundleIdentifier:com.todesktop.230313mzl4w4u92"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_PIP_INDEX_URL:http://mirrors.aliyun.com/pypi/simple"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"USER.ZDOTDIR:/Users/bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"VSCODE_INJECTION:1"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"__CF_USER_TEXT_ENCODING:0x1F5:0x19:0x34"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logRotateDisable"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"logRotateDisable:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"VSCODE.GIT.ASKPASS.EXTRA.ARGS:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"LOGNAME:bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"TERM:xterm-256color"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.CELLAR:/opt/homebrew/Cellar"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"TERM_PROGRAM:vscode"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"TERM.PROGRAM:vscode"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:55","msg":"not string format,key:servicecomb.registry.disabled"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"servicecomb.registry.disabled:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOME:/Users/bianniu"}
+{"level":"WARN","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:55","msg":"not string format,key:logRotateSize"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"logRotateSize:"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"CHASSIS.HOME:/Users/bianniu/GolandProjects/api_client/"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"VSCODE_GIT_ASKPASS_NODE:/Applications/Cursor.app/Contents/Frameworks/Cursor Helper (Plugin).app/Contents/MacOS/Cursor Helper (Plugin)"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW.REPOSITORY:/opt/homebrew"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"USER_ZDOTDIR:/Users/bianniu"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"HOMEBREW_API_DOMAIN:https://mirrors.aliyun.com/homebrew/homebrew-bottles/api"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"LaunchInstanceID:9A184292-F9A3-4354-8090-C91D0BA4A3F4"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"..CF.USER.TEXT.ENCODING:0x1F5:0x19:0x34"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"governance/governance.go:57","msg":"SHELL:/bin/zsh"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"v2@v2.4.0/chassis_api.go:194","msg":"init chassis success, version is v2.2.0"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"restful/restful_server.go:119","msg":"register rest server"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"restful/restful_server.go:137","msg":"schema registered is [RestFulHello]"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"restful/router.go:152","msg":"add route path.","data":{"func_name":"SayHello","method":"GET","path":"/hello"}}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.125 +08:00","file":"server/server_manager.go:68","msg":"starting server rest..."}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.126 +08:00","file":"restful/restful_server.go:285","msg":"[restful/swagger] listing is available at 127.0.0.1:5001/apidocs.json"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.126 +08:00","file":"restful/restful_server.go:285","msg":"[restful/swagger] 127.0.0.1:5001/swagger/ is mapped to folder ./swagger-ui/dist/"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.126 +08:00","file":"restful/restful_server.go:310","msg":"contract has been created successfully. path:/Users/bianniu/GolandProjects/api_client/conf/ApiClient/schema"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.126 +08:00","file":"restful/restful_server.go:273","msg":"http server is listening at 127.0.0.1:5001"}
+{"level":"DEBUG","timestamp":"2025-01-03 00:43:30.126 +08:00","file":"server/server_manager.go:74","msg":"rest server start success"}
+{"level":"INFO","timestamp":"2025-01-03 00:43:30.126 +08:00","file":"server/server_manager.go:76","msg":"all server start completed"}
+{"level":"INFO","timestamp":"2025-01-05 14:35:38.469 +08:00","file":"v2@v2.4.0/chassis_api.go:128","msg":"got os signal hangup"}
+{"level":"INFO","timestamp":"2025-01-05 14:35:38.475 +08:00","file":"v2@v2.4.0/chassis_api.go:159","msg":"stopping server rest..."}
+{"level":"ERROR","timestamp":"2025-01-05 14:35:38.477 +08:00","file":"restful/restful_server.go:267","msg":"http server err: http: Server closed"}
+{"level":"INFO","timestamp":"2025-01-05 14:35:38.478 +08:00","file":"v2@v2.4.0/chassis_api.go:164","msg":"rest server stop success"}
+{"level":"INFO","timestamp":"2025-01-05 14:35:38.478 +08:00","file":"v2@v2.4.0/chassis_api.go:167","msg":"go chassis server gracefully shutdown"}
