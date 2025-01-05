@@ -12,3 +12,9 @@ var SqlTemplateInfraSet = wire.NewSet(
 	remoteapi.RemoteApiSet,
 	repo.SqlTemplateRepositorySet,
 )
+
+var MockSqlTemplateInfraSet = wire.NewSet(
+	persistence.SqlTemplateLocalCacheSet,
+	remoteapi.MockRemoteApiSet,
+	repo.SqlTemplateRepositorySet,
+)

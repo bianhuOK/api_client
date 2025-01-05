@@ -14,7 +14,7 @@ var SqlTemplateControllerSet = wire.NewSet(
 )
 
 var SqlAppSet = wire.NewSet(
-	infra.SqlTemplateInfraSet,
+	infra.MockSqlTemplateInfraSet,
 	sql_template.SqlTemplateServiceSet,
 	SqlTemplateControllerSet,
 )

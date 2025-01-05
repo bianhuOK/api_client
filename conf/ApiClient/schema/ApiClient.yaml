@@ -4,9 +4,9 @@ info:
   version: ""
 basePath: /
 paths:
-  /hello:
-    get:
-      operationId: SayHello
+  /api_sql_query/{api_id}:
+    post:
+      operationId: QueryApiSql
       consumes:
       - '*/*'
       produces:

@@ -20,9 +20,8 @@ import (
 func InitializeSqlApp() (*ApiSqlController, error) {
 	localCacheConfig := persistence.ProviderSqlLocalCacheConfig()
 	sqlLocalCache := persistence.NewSqlLocalCache(localCacheConfig)
-	string2 := remoteapi.ProvideApiURL()
-	sqlApiRest := remoteapi.NewSqlApiRest(string2)
-	remoteApiTemplateRepository := repo.NewRemoteApiTemplateRepository(sqlLocalCache, sqlApiRest)
+	mockRemoteAPI := remoteapi.NewMockRemoteAPI()
+	remoteApiTemplateRepository := repo.NewRemoteApiTemplateRepository(sqlLocalCache, mockRemoteAPI)
 	sqlTemplateService := sql_template.NewSqlTemplateService(remoteApiTemplateRepository)
 	apiSqlController := NewApiSqlController(sqlTemplateService)
 	return apiSqlController, nil
@@ -34,4 +33,4 @@ var SqlTemplateControllerSet = wire.NewSet(
 	NewApiSqlController,
 )
 
-var SqlAppSet = wire.NewSet(infra.SqlTemplateInfraSet, sql_template.SqlTemplateServiceSet, SqlTemplateControllerSet)
+var SqlAppSet = wire.NewSet(infra.MockSqlTemplateInfraSet, sql_template.SqlTemplateServiceSet, SqlTemplateControllerSet)

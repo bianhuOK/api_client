@@ -15,3 +15,8 @@ var RemoteApiSet = wire.NewSet(
 	NewSqlApiRest,
 	wire.Bind(new(sql_template.RemoteAPI), new(*SqlApiRest)),
 )
+
+var MockRemoteApiSet = wire.NewSet(
+	NewMockRemoteAPI,
+	wire.Bind(new(sql_template.RemoteAPI), new(*MockRemoteAPI)),
+)
