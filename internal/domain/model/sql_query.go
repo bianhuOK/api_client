@@ -8,6 +8,7 @@ type DbConfig struct {
 	Port     int    `json:"port"`
 	User     string `json:"user"`
 	PassWord string `json:"password"`
+	Charset  string `json:"charset"`
 }
 
 type SqlQuery struct {
