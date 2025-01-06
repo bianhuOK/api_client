@@ -4,9 +4,11 @@
 //go:build !wireinject
 // +build !wireinject
 
-package app_sql_template
+package app_sql_query
 
 import (
+	"github.com/bianhuOK/api_client/internal/domain"
+	"github.com/bianhuOK/api_client/internal/domain/service"
 	"github.com/bianhuOK/api_client/internal/domain/sql_template"
 	"github.com/bianhuOK/api_client/internal/infra"
 	"github.com/bianhuOK/api_client/internal/infra/persistence"
@@ -23,7 +25,9 @@ func InitializeSqlApp() (*ApiSqlController, error) {
 	mockRemoteAPI := remoteapi.NewMockRemoteAPI()
 	remoteApiTemplateRepository := repo.NewRemoteApiTemplateRepository(sqlLocalCache, mockRemoteAPI)
 	sqlTemplateService := sql_template.NewSqlTemplateService(remoteApiTemplateRepository)
-	apiSqlController := NewApiSqlController(sqlTemplateService)
+	dbFactoryImpl := repo.NewDbFactoryImpl()
+	sqlQueryService := service.NewSqlQueryService(dbFactoryImpl)
+	apiSqlController := NewApiSqlController(sqlTemplateService, sqlQueryService)
 	return apiSqlController, nil
 }
 
@@ -33,4 +37,4 @@ var SqlTemplateControllerSet = wire.NewSet(
 	NewApiSqlController,
 )
 
-var SqlAppSet = wire.NewSet(infra.MockSqlTemplateInfraSet, sql_template.SqlTemplateServiceSet, SqlTemplateControllerSet)
+var SqlAppSet = wire.NewSet(infra.MockSqlTemplateInfraSet, infra.SqlQueryInfraSet, sql_template.SqlTemplateServiceSet, domain.SqlQuerySet, SqlTemplateControllerSet)

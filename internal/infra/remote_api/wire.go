@@ -1,7 +1,7 @@
 package remoteapi
 
 import (
-	"github.com/bianhuOK/api_client/internal/domain/sql_template"
+	"github.com/bianhuOK/api_client/internal/infra/iface"
 	"github.com/google/wire"
 )
 
@@ -13,10 +13,10 @@ func ProvideApiURL() string {
 var RemoteApiSet = wire.NewSet(
 	ProvideApiURL,
 	NewSqlApiRest,
-	wire.Bind(new(sql_template.RemoteAPI), new(*SqlApiRest)),
+	wire.Bind(new(iface.RemoteAPI), new(*SqlApiRest)),
 )
 
 var MockRemoteApiSet = wire.NewSet(
 	NewMockRemoteAPI,
-	wire.Bind(new(sql_template.RemoteAPI), new(*MockRemoteAPI)),
+	wire.Bind(new(iface.RemoteAPI), new(*MockRemoteAPI)),
 )

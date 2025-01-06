@@ -4,12 +4,15 @@ go 1.21.10
 
 require (
 	github.com/go-chassis/go-chassis/v2 v2.4.0
+	github.com/go-sql-driver/mysql v1.8.1
 	github.com/google/wire v0.6.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
 )
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/cenkalti/backoff v2.0.0+incompatible // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
@@ -29,6 +32,7 @@ require (
 	github.com/gorilla/websocket v1.4.3-0.20210424162022-e8629af678b7 // indirect
 	github.com/hashicorp/go-version v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.8 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
@@ -38,11 +42,8 @@ require (
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910 // indirect
 	github.com/prometheus/common v0.2.0 // indirect
 	github.com/prometheus/procfs v0.0.0-20181005140218-185b4288413d // indirect
-	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/cast v1.2.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	go.uber.org/multierr v1.10.0 // indirect
-	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect

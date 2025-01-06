@@ -11,3 +11,4 @@
 {"level":"INFO","timestamp":"2025-01-05 21:23:38.251 +08:00","file":"accesslog/access_log.go:92","msg":"POST /api_sql_query/zzzz from 127.0.0.1 200 0ms"}
 {"level":"INFO","timestamp":"2025-01-05 21:23:40.247 +08:00","file":"accesslog/access_log.go:92","msg":"POST /api_sql_query/zzzz from 127.0.0.1 200 0ms"}
 {"level":"INFO","timestamp":"2025-01-05 21:23:42.629 +08:00","file":"accesslog/access_log.go:92","msg":"POST /api_sql_query/zzzzz from 127.0.0.1 200 0ms"}
+{"level":"INFO","timestamp":"2025-01-06 18:37:39.765 +08:00","file":"accesslog/access_log.go:92","msg":"POST /api_sql_query/zzzzz from 127.0.0.1 200 0ms"}

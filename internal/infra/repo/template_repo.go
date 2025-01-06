@@ -5,15 +5,16 @@ import (
 	"time"
 
 	domain "github.com/bianhuOK/api_client/internal/domain/sql_template"
+	"github.com/bianhuOK/api_client/internal/infra/iface"
 )
 
 type RemoteApiTemplateRepository struct {
-	TemplateCache     domain.Cache
-	TemplateRemoteApi domain.RemoteAPI
+	TemplateCache     iface.Cache
+	TemplateRemoteApi iface.RemoteAPI
 	mux               sync.Mutex
 }
 
-func NewRemoteApiTemplateRepository(c domain.Cache, remoteAPi domain.RemoteAPI) *RemoteApiTemplateRepository {
+func NewRemoteApiTemplateRepository(c iface.Cache, remoteAPi iface.RemoteAPI) *RemoteApiTemplateRepository {
 	return &RemoteApiTemplateRepository{
 		TemplateCache:     c,
 		TemplateRemoteApi: remoteAPi,

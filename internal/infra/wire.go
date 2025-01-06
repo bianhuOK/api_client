@@ -18,3 +18,7 @@ var MockSqlTemplateInfraSet = wire.NewSet(
 	remoteapi.MockRemoteApiSet,
 	repo.SqlTemplateRepositorySet,
 )
+
+var SqlQueryInfraSet = wire.NewSet(
+	repo.DbFactoryImplSet,
+)

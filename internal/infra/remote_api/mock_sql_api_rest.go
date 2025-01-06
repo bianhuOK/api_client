@@ -1,6 +1,7 @@
 package remoteapi
 
 import (
+	"github.com/bianhuOK/api_client/internal/domain/model"
 	"github.com/bianhuOK/api_client/internal/domain/sql_template"
 	"github.com/stretchr/testify/mock"
 )
@@ -16,6 +17,7 @@ func NewMockRemoteAPI() *MockRemoteAPI {
 	expectedTemplate := &sql_template.SqlTemplate{
 		ApiId:           "zzz",
 		TemplateContent: "SELECT * FROM users WHERE id = ?",
+		DbConfig:        model.DbConfig{},
 	}
 
 	// Setup expectations

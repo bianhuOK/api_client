@@ -3,6 +3,8 @@ package sql_template
 import (
 	"errors"
 	"time"
+
+	"github.com/bianhuOK/api_client/internal/domain/model"
 )
 
 type TemplateCont string
@@ -17,6 +19,7 @@ type SqlTemplate struct {
 	ApiId           ApiId
 	TemplateContent TemplateCont
 	Params          []map[string][]ParamRule
+	DbConfig        model.DbConfig
 	Updated         time.Time
 }
 

@@ -1,12 +1,14 @@
 package persistence
 
 import (
-	"github.com/bianhuOK/api_client/internal/domain/sql_template"
+	"github.com/bianhuOK/api_client/internal/infra/iface"
 	"github.com/google/wire"
 )
 
 var SqlTemplateLocalCacheSet = wire.NewSet(
 	ProviderSqlLocalCacheConfig,
 	NewSqlLocalCache,
-	wire.Bind(new(sql_template.Cache), new(*SqlLocalCache)),
+	wire.Bind(new(iface.Cache), new(*SqlLocalCache)),
 )
+
+var SqlQueryMysqlSet = wire.NewSet()

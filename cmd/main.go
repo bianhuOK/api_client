@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/bianhuOK/api_client/app/app_sql_template"
+	"github.com/bianhuOK/api_client/app/app_sql_query"
 	"github.com/go-chassis/go-chassis/v2"
 	_ "github.com/go-chassis/go-chassis/v2/middleware/accesslog"
 )
 
 func main() {
 
-	app, err := app_sql_template.InitializeSqlApp()
+	app, err := app_sql_query.InitializeSqlApp()
 	if err != nil {
 		panic(err)
 	}
