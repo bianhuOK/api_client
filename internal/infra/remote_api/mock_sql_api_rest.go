@@ -16,16 +16,16 @@ func NewMockRemoteAPI() *MockRemoteAPI {
 	// Use mock's Method to simulate the behavior
 	expectedTemplate := &sql_template.SqlTemplate{
 		ApiId:           "zzz",
-		TemplateContent: "SELECT * FROM employees WHERE employee_id = 1",
+		TemplateContent: "SELECT * FROM employees WHERE employee_id = 101 AND department_id = 101",
 		DbConfig: model.DbConfig{
-			Host:     "localhost",
+			Host:     "49.233.45.238",
 			Port:     3306,
-			User:     "friend",
-			PassWord: "Abcd0932",
+			User:     "yep",
+			PassWord: "A_bcd0932",
 			DbName:   "mydatabase",
 			Charset:  "utf8mb4",
 			DbType:   "mysql",
-			DSN:      "friend:Abcd0932@tcp(localhost:3306)/mydatabase?charset=utf8mb4",
+			DSN:      "yep:A_bcd0932@tcp(49.233.45.238:3306)/mydatabase?charset=utf8mb4",
 		},
 	}
 
