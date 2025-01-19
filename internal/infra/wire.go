@@ -13,6 +13,10 @@ var SqlTemplateInfraSet = wire.NewSet(
 	repo.SqlTemplateRepositorySet,
 )
 
+var SequenceGenerateInfraSet = wire.NewSet(
+	repo.SequenceRepoSet,
+)
+
 var MockSqlTemplateInfraSet = wire.NewSet(
 	persistence.SqlTemplateLocalCacheSet,
 	remoteapi.MockRemoteApiSet,

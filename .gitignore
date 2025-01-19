@@ -12,7 +12,8 @@
 *.test
 
 # others
-log/*
+log/*.log
+*.log
 *workspace
 
 # Output of the go coverage tool, specifically when used with LiteIDE
@@ -27,3 +28,6 @@ go.work.sum
 
 # env file
 .env
+log/access.log
+apiclient.code-workspace
+log/chassis.log

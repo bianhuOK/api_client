@@ -16,7 +16,7 @@ func NewMockRemoteAPI() *MockRemoteAPI {
 	// Use mock's Method to simulate the behavior
 	expectedTemplate := &sql_template.SqlTemplate{
 		ApiId:           "zzz",
-		TemplateContent: "SELECT * FROM employees WHERE employee_id = 101 AND department_id = 101",
+		TemplateContent: "SELECT * FROM employees WHERE employee_id = 1",
 		DbConfig: model.DbConfig{
 			Host:     "49.233.45.238",
 			Port:     3306,

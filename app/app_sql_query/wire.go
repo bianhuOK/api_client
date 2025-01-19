@@ -14,15 +14,33 @@ var SqlTemplateControllerSet = wire.NewSet(
 	NewApiSqlController,
 )
 
-var SqlAppSet = wire.NewSet(
+var SqlTemplateGrpcControllerSet = wire.NewSet(
+	NewGrpcSqlController,
+)
+
+var SqlAppCommonSet = wire.NewSet(
 	infra.MockSqlTemplateInfraSet,
 	infra.SqlQueryInfraSet,
 	sql_template.SqlTemplateServiceSet,
 	domain.SqlQuerySet,
+)
+
+var SqlAppSet = wire.NewSet(
+	SqlAppCommonSet,
 	SqlTemplateControllerSet,
+)
+
+var SqlGrpcAppSet = wire.NewSet(
+	SqlAppCommonSet,
+	SqlTemplateGrpcControllerSet,
 )
 
 func InitializeSqlApp() (*ApiSqlController, error) {
 	wire.Build(SqlAppSet)
 	return &ApiSqlController{}, nil
+}
+
+func InitializeGrpcSqlApp() (*GrpcSqlController, error) {
+	wire.Build(SqlGrpcAppSet)
+	return &GrpcSqlController{}, nil
 }

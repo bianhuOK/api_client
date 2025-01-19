@@ -31,10 +31,36 @@ func InitializeSqlApp() (*ApiSqlController, error) {
 	return apiSqlController, nil
 }
 
+func InitializeGrpcSqlApp() (*GrpcSqlController, error) {
+	localCacheConfig := persistence.ProviderSqlLocalCacheConfig()
+	sqlLocalCache := persistence.NewSqlLocalCache(localCacheConfig)
+	mockRemoteAPI := remoteapi.NewMockRemoteAPI()
+	remoteApiTemplateRepository := repo.NewRemoteApiTemplateRepository(sqlLocalCache, mockRemoteAPI)
+	sqlTemplateService := sql_template.NewSqlTemplateService(remoteApiTemplateRepository)
+	dbFactoryImpl := repo.NewDbFactoryImpl()
+	sqlQueryService := service.NewSqlQueryService(dbFactoryImpl)
+	grpcSqlController := NewGrpcSqlController(sqlTemplateService, sqlQueryService)
+	return grpcSqlController, nil
+}
+
 // wire.go:
 
 var SqlTemplateControllerSet = wire.NewSet(
 	NewApiSqlController,
 )
 
-var SqlAppSet = wire.NewSet(infra.MockSqlTemplateInfraSet, infra.SqlQueryInfraSet, sql_template.SqlTemplateServiceSet, domain.SqlQuerySet, SqlTemplateControllerSet)
+var SqlTemplateGrpcControllerSet = wire.NewSet(
+	NewGrpcSqlController,
+)
+
+var SqlAppCommonSet = wire.NewSet(infra.MockSqlTemplateInfraSet, infra.SqlQueryInfraSet, sql_template.SqlTemplateServiceSet, domain.SqlQuerySet)
+
+var SqlAppSet = wire.NewSet(
+	SqlAppCommonSet,
+	SqlTemplateControllerSet,
+)
+
+var SqlGrpcAppSet = wire.NewSet(
+	SqlAppCommonSet,
+	SqlTemplateGrpcControllerSet,
+)

@@ -1,12 +1,23 @@
 ---
 servicecomb:
+  metrics:
+    apiPath: /metrics      # we can also give api path having prefix "/" ,like /adas/metrics
+    enable: true
+    enableGoRuntimeMetrics: true
+    enableCircuitMetrics: true
+    prometheus:
+      enabled: true  # 开启prometheus支持
+      port: 9090    # prometheus数据暴露端口
   registry:
-    disabled: true
-    address: http://127.0.0.1:30100 # If type is File then address will be the path of the file
+    type: servicecenter
+    address: "http://49.233.45.238:30100"
   protocols:
     rest:
       listenAddress: "127.0.0.1:5001"
+    grpc:
+      listenAddress: "127.0.0.1:5000"
   handler:
-    chain:
-      Provider:
-        rest: access-log, tracing-provider
+    Provider:
+      default: tracing-provider,monitoring
+    Consumer:
+      default: tracing-consumer

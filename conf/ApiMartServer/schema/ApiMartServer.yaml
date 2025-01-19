@@ -4,9 +4,12 @@ info:
   version: ""
 basePath: /
 paths:
-  /api_sql_query/{api_id}:
+  /metrics:
+    get:
+      operationId: PrometheusHandleFunc
+  /sequence_generate:
     post:
-      operationId: QueryApiSql
+      operationId: GetSequence
       consumes:
       - '*/*'
       produces:

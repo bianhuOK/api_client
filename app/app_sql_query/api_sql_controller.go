@@ -6,6 +6,7 @@ import (
 	"github.com/bianhuOK/api_client/internal/domain/iface"
 	domain "github.com/bianhuOK/api_client/internal/domain/sql_template"
 	"github.com/bianhuOK/api_client/pkg/utils"
+	"github.com/go-chassis/go-chassis/v2/pkg/metrics"
 	rf "github.com/go-chassis/go-chassis/v2/server/restful"
 )
 
@@ -15,6 +16,7 @@ type ApiSqlController struct {
 }
 
 func NewApiSqlController(sqlTemplateSrv domain.TemplateService, sqlQuerySrv iface.SqlQueryServiceIface) *ApiSqlController {
+
 	return &ApiSqlController{
 		SqlTemplateService: sqlTemplateSrv,
 		SqlQueryService:    sqlQuerySrv,
@@ -23,6 +25,11 @@ func NewApiSqlController(sqlTemplateSrv domain.TemplateService, sqlQuerySrv ifac
 
 func (c *ApiSqlController) QueryApiSql(b *rf.Context) {
 	logger := utils.GetLogger()
+	// 记录请求
+	metrics.CounterAdd("request_counter", 1, map[string]string{
+		"method":   b.ReadRequest().Method,
+		"endpoint": b.ReadRequest().URL.Path,
+	})
 
 	// 延迟执行的函数，用于捕获并处理panic
 	defer func() {

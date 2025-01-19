@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package sqlquery;
+option go_package = "github.com/bianhuOK/api_client/proto/sqlquery;sqlquery";
+
+// 使用bytes类型来传输json数据
+service SqlQueryService {
+    rpc ExecuteQuery (QueryRequest) returns (QueryResponse);
+}
+
+message QueryRequest {
+    string app_id = 1;
+    bytes params = 2;  // 使用bytes存储json序列化后的数据
+}
+
+message QueryResponse {
+    bytes result = 1;  // 使用bytes存储json序列化后的数据
+}

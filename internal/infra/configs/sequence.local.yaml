@@ -1,0 +1,20 @@
+database:
+  host: 49.233.45.238
+  port: 3306
+  username: yep
+  password: A_bcd0932
+  database: mydatabase
+databaseConfig:
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifetime: 5h
+  connMaxIdleTime: 1h
+  logLevel: info
+  slowThreshold: 200ms
+range:
+  name: test_seq
+  defaultStep: 1000
+  maxValue: 9999999999
+  preloadThreshold: 0.8
+  maxRetries: 3
+  retryDelay: 100ms

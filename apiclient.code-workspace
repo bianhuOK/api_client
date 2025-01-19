@@ -5,7 +5,16 @@
 			"path": "."
 		},
 		{
+			"name": "go-chassis",
 			"path": "../github/go-chassis"
+		},
+		{
+			"name": "go-chassis-examples",
+			"path": "../go-chassis-examples"
+		},
+		{
+			"name": "api_dev_platform_frontend",
+			"path": "../../frontend/api_dev_platform_frontend"
 		}
 	],
 	"settings": {}
